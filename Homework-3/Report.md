@@ -1,7 +1,7 @@
 
 # Часть 1. Классификатор 128 x 128
 
-![Result](traning_results/loss_accuracy_plot.png)
+![Result](./traning_results/loss_accuracy_plot.png)
 
 ## Описание модели:
 
@@ -9,17 +9,15 @@
 Сверточный слой: 256 фильтров 3×3, stride=2, padding=3
 MaxPooling: ядро 8×8
 
-InvertedBottleneckBlock:
+InvertedBottleneckBlock:  
+Увеличение: 256 → 312 каналов (1×1 свёртка)  
+Промежуточная: 312 каналов (3×3 свёртка)  
+Сжатие: 312 → 50 каналов (1×1 свёртка)  
 
-Увеличение: 256 → 312 каналов (1×1 свёртка)
-Промежуточная: 312 каналов (3×3 свёртка)
-Сжатие: 312 → 50 каналов (1×1 свёртка)
 
-
-Shortcut connection при необходимости
-Batch Normalization: 50 каналов
-Global Average Pooling: к размеру 1×1
-Полносвязный слой: 50 признаков → 4 класса
+Batch Normalization: 50 каналов  
+Global Average Pooling: к размеру 1×1  
+Полносвязный слой: 50 признаков → 4 класса  
 
 ## Конечный результат на тестовом датасете: 
 
