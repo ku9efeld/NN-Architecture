@@ -2,3 +2,4 @@
 data/*.png
 data/*.txt
 data/*.JPEG
+data/images/ground/*.png
