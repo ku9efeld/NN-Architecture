@@ -1,7 +1,7 @@
 
 # Часть 1. Классификатор 128 x 128
 
-![Result](./traning_results/loss_accuracy_plot.png)
+![Result](./traning_results/1. Classification/loss_accuracy_plot.png)
 
 ## Описание модели:
 
