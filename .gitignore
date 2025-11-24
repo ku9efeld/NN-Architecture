@@ -3,3 +3,4 @@ data/*.png
 data/*.txt
 data/*.JPEG
 data/images/ground/*.png
+data/MOON_SEGMENTATION_BINARY/*
