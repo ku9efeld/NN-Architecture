@@ -121,7 +121,7 @@
 
 Визуализация процесса обучения
 
-[Вариант А](<training_results/2.Segmentation/option A/train_and_valid_plot.png>)  
+[Вариант А](training_results/2.Segmentation/option A/train_and_valid_plot.png)  
 
 На 4ой картинке внизу видно, что L Rate был 0, что соотвествует логике эксперимента, веса энкодера - не обновлялись с момента обучения, как в части 1.  
 
@@ -133,7 +133,7 @@
 
     Визуализация процесса обучения
 
-[Вариант Б](<training_results/2.Segmentation/option B/train_and_valid_plot.png>) 
+[Вариант Б](training_results/2.Segmentation/option B/train_and_valid_plot.png) 
 
 Итоговые лучшие метрики на валидации по Dice:
     `Val   - Loss: 0.4537, Dice: 0.4125, IoU: 0.2598, Acc: 0.8848`  
