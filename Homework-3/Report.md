@@ -121,7 +121,7 @@
 
 Визуализация процесса обучения
 
-[Вариант А](training_results/2.Segmentation/option A/train_and_valid_plot.png)  
+[Вариант А](training_results/2.Segmentation/option%20A/train_and_valid_plot.png)
 
 На 4ой картинке внизу видно, что L Rate был 0, что соотвествует логике эксперимента, веса энкодера - не обновлялись с момента обучения, как в части 1.  
 
@@ -133,7 +133,7 @@
 
     Визуализация процесса обучения
 
-[Вариант Б](training_results/2.Segmentation/option B/train_and_valid_plot.png) 
+[Вариант Б](training_results/2.Segmentation/option%20B/train_and_valid_plot.png) 
 
 Итоговые лучшие метрики на валидации по Dice:
     `Val   - Loss: 0.4537, Dice: 0.4125, IoU: 0.2598, Acc: 0.8848`  
@@ -141,12 +141,12 @@
 ## Визуальное сопоставление результатов
 
 ### Вариант А
-[Вариант А](<training_results/2.Segmentation/option A/output.png>) 
+[Вариант А](<training_results/2.Segmentation/option%20A/output.png>) 
 
 Широкие захваты камней (широкие зеленые маски, показывают, что модель не была настроена на предсказание камней - от слова совсем, что соотвествует логике эксперимента.)  
 
 ### Вариант B
-[Вариант Б](<training_results/2.Segmentation/option B/output.png>)  
+[Вариант Б](<training_results/2.Segmentation/option%20B/output.png>)  
 
 
 Здесь ситуация лучше. Все еще низкое качество, но предсказания становятся более точными. 
