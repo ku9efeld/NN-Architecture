@@ -26,22 +26,22 @@ Final конфигурация, несмотря на максимальную �
 
 | Класс | Label | Точность | Полнота | F1-Score |
 |-------|-------|----------|---------|----------|
-| goldfish, Carassius auratus | 0 | 0.96 | 0.44 | 0.60 |
-| brown bear, bruin, Ursus arctos | 1 | 0.81 | 0.84 | **0.82** |
-| guinea pig, Cavia cobaya | 2 | 0.69 | 0.48 | 0.56 |
-| maypole | 3 | 0.74 | 0.50 | 0.60 |
-| oboe, hautboy, hautbois | 4 | 0.38 | 0.50 | 0.43 |
+| brown bear, bruin, Ursus arctos | 0 | 0.96 | 0.44 | 0.60 |
+| school bus | 1 | 0.81 | 0.84 |**0.82**|
+| pizza, pizza pie | 2 | 0.69 | 0.48 | 0.56 |
+| guinea pig, Cavia cobaya | 3 | 0.74 | 0.50 | 0.60 |
+| umbrella | 4 | 0.38 | 0.50 | 0.43 |
 | organ, pipe organ | 5 | 0.49 | 0.88 | 0.63 |
-| school bus | 6 | 0.72 | 0.56 | 0.63 |
-| umbrella | 7 | 0.49 | 0.90 | 0.63 |
-| pizza, pizza pie | 8 | 0.90 | 0.76 | **0.83** |
+| oboe, hautboy, hautbois | 6 | 0.72 | 0.56 | 0.63 |
+| maypole | 7 | 0.49 | 0.90 | 0.63 |
+| goldfish, Carassius auratus | 8 | 0.90 | 0.76 | **0.83** |
 | potpie | 9 | 0.85 | 0.46 | 0.60 |
 
 **Общая точность: 0.632**
-<<<<<<<< HEAD:Homework-2.md
-========
+
+
 
 ## Пример работы модели
 
 [Пример](training_results/output.png)
->>>>>>>> 627fad28f (Небольшая поправка 2 ДЗ):Homework-2/Homework_2.md
+
